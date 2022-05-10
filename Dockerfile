@@ -1,7 +1,7 @@
 FROM centos/systemd:latest
 MAINTAINER ashu12.meshram@gmail.com
-RUN sudo yum update -y
-RUN sudo yum install -y httpd \
+RUN yum update -y
+RUN yum install -y httpd \
 zip \ 
 unzip 
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
