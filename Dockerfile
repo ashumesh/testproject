@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos/systemd:latest
 MAINTAINER ashu12.meshram@gmail.com
 RUN yum update -y
 RUN yum install -y httpd zip unzip 
